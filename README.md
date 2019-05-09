@@ -1,4 +1,4 @@
-# Alexa-B-isbol
+# Alexa-Béisbol
 Skill multimodal para seguir resultados de béisbol
 
 Skill para preguntar a Alexa resultados de Grandes Ligas. Si el juego está en ejecución, mostrará en pantalla mucho más información del juego en vivo.
