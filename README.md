@@ -3,8 +3,16 @@ Skill multimodal para seguir resultados de béisbol
 
 Skill para preguntar a Alexa resultados de Grandes Ligas. Si el juego está en ejecución, mostrará en pantalla mucho más información del juego en vivo.
 
-Skill disponible en en-US, es-US, es-ES, es-MX y en-CA. Se utiliza la librerí
-a i18n para servir las frases en cada idioma.
+Skill disponible en en-US, es-US, es-ES, es-MX y en-CA. Se utiliza la librería
+i18n para servir las frases en cada idioma.
+
+DEMO:
+
+es-ES: Alexa, Abre resultados de Grandes Ligas
+es-MX: Alexa, Abre resultados de Grandes Ligas
+es-US: Alexa, abre Resultados de Béisbol
+en-US: Alexa, open baseball scores
+en-CA: Alexa, open baseball scores
 
 Los resultados se obtienen desde una API propia que no está mostrada en este repositorio, sin embargo sirve de ejemplo para cualquier Skill deportiva.
 
