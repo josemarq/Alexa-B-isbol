@@ -1,0 +1,55 @@
+{
+    "jrTemplate1": {
+        "type": "object",
+        "objectId": "bt6Sample",
+        "titulo": "Este es el título",
+        "textoPrincipal": "Miércoles 25 de Mayo de 2019",
+        "hintText": "Dime ayuda o salir o lo que sea que me quieras decir...",
+        "teamAway": "Chicago White Sox",
+        "scoreAway": "0",
+        "teamHome": "Diamondbacks",
+        "scoreHome": "2",
+        "inning": "Inning 9",
+        "bases_img": "[YOUR IMAGE SERVER URL]/bases_0.png",
+
+        "backgroundImage": {
+            "contentDescription": null,
+            "smallSourceUrl": null,
+            "largeSourceUrl": null,
+            "sources": [
+                {
+                    "url": "[YOUR IMAGE SERVER URL]/back1.png",
+                    "size": "small",
+                    "widthPixels": 0,
+                    "heightPixels": 0
+                },
+                {
+                    "url": "[YOUR IMAGE SERVER URL]/back1.png",
+                    "size": "large",
+                    "widthPixels": 0,
+                    "heightPixels": 0
+                }
+            ]
+        },
+        "image": {
+            "contentDescription": null,
+            "smallSourceUrl": null,
+            "largeSourceUrl": null,
+            "sources": [
+                {
+                    "url": "https://d2o906d8ln7ui1.cloudfront.net/images/MollyforBT7.png",
+                    "size": "small",
+                    "widthPixels": 0,
+                    "heightPixels": 0
+                },
+                {
+                    "url": "https://d2o906d8ln7ui1.cloudfront.net/images/MollyforBT7.png",
+                    "size": "large",
+                    "widthPixels": 0,
+                    "heightPixels": 0
+                }
+            ]
+        },
+        "logoUrl": "https://d2o906d8ln7ui1.cloudfront.net/images/cheeseskillicon.png"
+    }
+}
