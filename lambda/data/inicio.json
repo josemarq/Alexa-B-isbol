@@ -1,0 +1,52 @@
+{
+    "jrTemplate1": {
+        "type": "object",
+        "objectId": "",
+        "titulo": "Este es el título",
+        "textoPrincipal": "Dime el nombre de un equipo...",
+        "hintText": "Dime ayuda o salir o lo que sea que me quieras decir...",
+        "columna1" : "<u><b>NL West</b></u><br>Atlanta<br>Miami<br>New York Mets<br>Philadelphia<br>Washington<br><br><u><b>AL West</b></u><br>Baltimore<br>Boston<br>New York Yankees<br>Tampa Bay<br>Toronto<br>",
+        "columna2" : "<u><b>NL Center</b></u><br>Chicago Cubs<br>Cincinnati<br>Milwaukee<br>Pittsburgh<br>St. Louis<br><br><u><b>AL Center</b></u><br>Chicago White Sox<br>Cleveland<br>Detroit<br>Kansas City<br>Minnesota",
+        "columna3" : "<u><b>NL East</b></u><br>Arizona<br>Colorado<br>Los Angeles Dodgers<br>San Diego<br>San Francisco<br><br><u><b>AL Center</b></u><br>Houston<br>Los Angeles Angels<br>Oakland<br>Seattle<br>Texas",
+
+        "backgroundImage": {
+            "contentDescription": null,
+            "smallSourceUrl": null,
+            "largeSourceUrl": null,
+            "sources": [
+                {
+                    "url": "http://[YOUR IMAGE SERVER URL]/back2.png",
+                    "size": "small",
+                    "widthPixels": 0,
+                    "heightPixels": 0
+                },
+                {
+                    "url": "http://[YOUR IMAGE SERVER URL]/back2.png",
+                    "size": "large",
+                    "widthPixels": 0,
+                    "heightPixels": 0
+                }
+            ]
+        },
+        "image": {
+            "contentDescription": null,
+            "smallSourceUrl": null,
+            "largeSourceUrl": null,
+            "sources": [
+                {
+                    "url": "https://d2o906d8ln7ui1.cloudfront.net/images/MollyforBT7.png",
+                    "size": "small",
+                    "widthPixels": 0,
+                    "heightPixels": 0
+                },
+                {
+                    "url": "https://d2o906d8ln7ui1.cloudfront.net/images/MollyforBT7.png",
+                    "size": "large",
+                    "widthPixels": 0,
+                    "heightPixels": 0
+                }
+            ]
+        },
+        "logoUrl": "https://d2o906d8ln7ui1.cloudfront.net/images/cheeseskillicon.png"
+    }
+}
