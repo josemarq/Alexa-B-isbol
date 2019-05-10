@@ -6,7 +6,7 @@ Skill para preguntar a Alexa resultados de Grandes Ligas. Si el juego está en e
 Skill disponible en en-US, es-US, es-ES, es-MX y en-CA. Se utiliza la librería
 i18n para servir las frases en cada idioma.
 
-DEMO:
+DEMO: https://youtu.be/RVQ3EXYsoNU
 
 es-ES: Alexa, Abre resultados de Grandes Ligas
 es-MX: Alexa, Abre resultados de Grandes Ligas
