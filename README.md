@@ -6,7 +6,7 @@ Skill para preguntar a Alexa resultados de Grandes Ligas. Si el juego está en e
 Skill disponible en en-US, es-US, es-ES, es-MX y en-CA. Se utiliza la librería
 i18n para servir las frases en cada idioma.
 
-DEMO: https://youtu.be/RVQ3EXYsoNU
+DEMO: https://youtu.be/Xc6KIuumHl8
 
 es-ES: Alexa, Abre resultados de Grandes Ligas
 es-MX: Alexa, Abre resultados de Grandes Ligas
@@ -18,4 +18,4 @@ Los resultados se obtienen desde una API propia que no está mostrada en este re
 
 Ejemplos de respuesta de la API:
 
-{"frase":"On Tuesday May 7 2019, Angels 5, Tigers 2. The next game will be on Wednesday May 8 2019, when Angels will visit to Tigers","live":0,"inning":null,"arriba":"N","away":"Angels","home":"Tigers","away_score":"5","home_score":"2","bases":null,"outs":"3","es_fecha":"martes 7 mayo de 2019","en_fecha":"Tuesday May 7 2019"}
+{"frase":"On Tuesday May 7 2019, Angels 5, Tigers 2. The next game will be on Wednesday May 8 2019, when Angels will visit to Tigers","live":0,"inning":9,"arriba":"N","away":"Angels","home":"Tigers","away_score":"5","home_score":"2","bases":0,"outs":"3","es_fecha":"martes 7 mayo de 2019","en_fecha":"Tuesday May 7 2019"}
