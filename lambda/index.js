@@ -252,7 +252,7 @@ const ultimoResultadoIntent = {
         if ((away!= 'null') || (home != 'null') || (away_score=! 'null') || (home_score != 'null')) {
          data.jrTemplate1.inning = inning;
          
-         if (global.lang=="en-US") {
+         if (global.lang=="en-US" || global.lang=="en-CA") {
             data.jrTemplate1.textoPrincipal = date_en;
          } else {
              data.jrTemplate1.textoPrincipal = date;
