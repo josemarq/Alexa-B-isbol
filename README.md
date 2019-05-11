@@ -8,6 +8,8 @@ i18n para servir las frases en cada idioma.
 
 DEMO: https://youtu.be/Xc6KIuumHl8
 
+SKILL: https://amzn.to/2LF20Pk
+
 es-ES: Alexa, Abre resultados de Grandes Ligas
 es-MX: Alexa, Abre resultados de Grandes Ligas
 es-US: Alexa, abre Resultados de Béisbol
