@@ -15,13 +15,13 @@
             "largeSourceUrl": null,
             "sources": [
                 {
-                    "url": "http://[YOUR IMAGE SERVER URL]/back2.png",
+                    "url": "http://www3.appsnumeric.net/images/alexa/mlb/back2.png",
                     "size": "small",
                     "widthPixels": 0,
                     "heightPixels": 0
                 },
                 {
-                    "url": "http://[YOUR IMAGE SERVER URL]/back2.png",
+                    "url": "http://www3.appsnumeric.net/images/alexa/mlb/back2.png",
                     "size": "large",
                     "widthPixels": 0,
                     "heightPixels": 0
