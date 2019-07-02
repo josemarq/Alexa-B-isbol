@@ -46,7 +46,149 @@
                         "fontStyle": "italic",
                         "fontSize": "${viewport.shape == 'round' ? '28' : '50'}",
                         "text": "${payload.jrTemplate1.textoPrincipal}",
+                        "fontWeight": "100",{
+    "type": "APL",
+    "version": "1.0",
+    "theme": "dark",
+    "import": [],
+    "resources": [],
+    "styles": {},
+    "layouts": {},
+    "mainTemplate": {
+        "parameters": [
+            "payload"
+        ],
+        "items": [
+            {
+                "type": "Container",
+                "height": "100vh",
+                "item": [
+                    {
+                        "type": "Image",
+                        "width": "100%",
+                        "height": "100%",
+                        "source": "${payload.jrTemplate1.backgroundImage.sources[0].url}",
+                        "scale": "best-fill",
+                        "overlayColor": "rgba(0, 0, 0, 0.5)"
+                    },
+                    {
+                        "type": "Text",
+                        "width": "100%",
+                        "paddingTop": "10",
+                        "textAlign": "center",
+                        "text": "${payload.jrTemplate1.titulo}",
+                        "position": "absolute",
+                        "top": "${viewport.shape == 'round' ? '150' : '2'}"
+                    },
+                    {
+                        "type": "Text",
+                        "when": "${viewport.shape == 'round'}",
+                        "width": "100%",
+                        "height": "100%",
+                        "paddingLeft": "30",
+                        "paddingTop": "${viewport.shape == 'round' ? '150' : '0'}",
+                        "paddingRight": "30",
+                        "textAlign": "center",
+                        "textAlignVertical": "center",
+                        "color": "#FAFAFA",
+                        "fontStyle": "italic",
+                        "fontSize": "${viewport.shape == 'round' ? '28' : '50'}",
+                        "text": "${payload.jrTemplate1.textoPrincipal}",
                         "fontWeight": "100",
+                        "position": "absolute"
+                    },
+                    {
+                        "type": "Text",
+                        "when": "${viewport.shape != 'round'}",
+                        "height": "100%",
+                        "paddingLeft": "${viewport.shape == 'round' ? '78' : '50'}",
+                        "paddingBottom": "${viewport.shape == 'round' ? '78' : '20'}",
+                        "textAlignVertical": "bottom",
+                        "fontStyle": "italic",
+                        "fontSize": "25",
+                        "text": "${payload.jrTemplate1.hintText}",
+                        "fontWeight": "100",
+                        "position": "absolute"
+                    },
+                    {
+                        "type": "Container",
+                        "when": "${viewport.shape != 'round'}",
+                        "width": "200%",
+                        "height": "90%",
+                        "paddingTop": "${viewport.height == '800' ? '700' : '450'}",
+                        "alignItems": "center",
+                        "direction": "row",
+                        "position": "absolute",
+                        "items": [
+                            {
+                                "type": "Frame",
+                                "width": "100%",
+                                "height": "${viewport.pixelWidth == '960' ? '170%' : '150%'}",
+                                "item": [
+                                    {
+                                        "type": "Container",
+                                        "width": "50%",
+                                        "alignItems": "center",
+                                        "item": [
+                                            {
+                                                "type": "Text",
+                                                "textAlign": "center",
+                                                "fontSize": "${viewport.height == '800' ? '30' : '23'}",
+                                                "text": "${payload.jrTemplate1.columna2}"
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "position": "absolute"
+                            },
+                            {
+                                "type": "Frame",
+                                "width": "83%",
+                                "height": "${viewport.pixelWidth == '960' ? '170%' : '150%'}",
+                                "item": [
+                                    {
+                                        "type": "Container",
+                                        "width": "100%",
+                                        "alignItems": "center",
+                                        "item": [
+                                            {
+                                                "type": "Text",
+                                                "textAlign": "center",
+                                                "fontSize": "${viewport.height == '800' ? '30' : '23'}",
+                                                "text": "${payload.jrTemplate1.columna3}"
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "position": "absolute"
+                            },
+                            {
+                                "type": "Frame",
+                                "width": "30%",
+                                "height": "${viewport.pixelWidth == '960' ? '170%' : '150%'}",
+                                "item": [
+                                    {
+                                        "type": "Container",
+                                        "width": "50%",
+                                        "item": [
+                                            {
+                                                "type": "Text",
+                                                "textAlign": "center",
+                                                "fontSize": "${viewport.height == '800' ? '30' : '23'}",
+                                                "text": "${payload.jrTemplate1.columna1}"
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "position": "absolute"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}
                         "position": "absolute"
                     },
                     {
